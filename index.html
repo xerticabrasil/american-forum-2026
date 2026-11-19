@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A máquina já chegou. O resultado, não. · Gustavo de Paula · Xertica.ai</title>
+<meta name="description" content="Baixe a palestra de Gustavo de Paula, Country Manager Brasil da Xertica.ai, no American Forum on Law & Digital Governance 2026.">
+<meta property="og:title" content="A máquina já chegou. O resultado, não.">
+<meta property="og:description" content="Palestra de Gustavo de Paula · American Forum on Law & Digital Governance 2026">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --marfil:#FFFEF8; --crema:#F2EDD8; --negro:#1E1E1E; --tinta:#1A1814;
+    --tinta70:rgba(26,24,20,.7); --linha:rgba(26,24,20,.18);
+    --celeste:#1899AF; --coral:#DE5B48; --amarillo:#FAF338;
+    --titulo:"Helvetica Neue", Arimo, Arial, sans-serif;
+    --corpo:Inter, "Helvetica Neue", Arial, sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:var(--marfil);color:var(--tinta)}
+  body{font-family:var(--corpo);font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  a{color:var(--tinta)}
+  .hero{display:grid;grid-template-columns:1fr;min-height:100vh}
+  .figura{position:relative;background:var(--crema);min-height:180px;overflow:hidden;order:-1}
+  .figura svg{position:absolute;inset:0;width:100%;height:100%}
+  .texto{padding:40px 24px 56px;max-width:640px}
+  .eyebrow{font-family:var(--titulo);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--tinta70);margin-bottom:20px}
+  h1{font-family:var(--titulo);font-weight:700;font-size:clamp(34px,7vw,56px);line-height:1.04;letter-spacing:-.02em;margin-bottom:20px}
+  h1 span{display:block;font-weight:400}
+  .lead{font-size:18px;color:var(--tinta);margin-bottom:8px}
+  .autor{font-size:16px;color:var(--tinta70);margin-bottom:32px}
+  form{display:grid;gap:16px}
+  label.campo{display:grid;gap:6px;font-size:15px;font-weight:500}
+  label.campo small{font-weight:300;color:var(--tinta70)}
+  input[type=text],input[type=email],input[type=tel]{
+    font:inherit;font-size:18px;color:var(--tinta);background:var(--marfil);
+    border:1px solid var(--linha);border-radius:10px;padding:13px 14px;width:100%;
+  }
+  input:focus{outline:2px solid var(--celeste);outline-offset:1px;border-color:transparent}
+  .check{display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:start;font-size:15px;line-height:1.45;color:var(--tinta)}
+  .check input{width:20px;height:20px;margin-top:2px;accent-color:var(--negro)}
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:10px;
+    font-family:var(--titulo);font-weight:400;font-size:18px;letter-spacing:.01em;
+    border-radius:999px;padding:16px 28px;text-decoration:none;cursor:pointer;border:1px solid var(--tinta);
+  }
+  .btn-amarelo{background:var(--amarillo);color:var(--tinta)}
+  .btn-negro{background:var(--negro);color:#fff;border-color:var(--negro)}
+  .btn-contorno{background:transparent;color:var(--tinta)}
+  .btn[disabled]{opacity:.55;cursor:wait}
+  .acoes{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
+  .erro{font-size:15px;color:var(--tinta);border-left:3px solid var(--coral);padding:6px 12px;display:none}
+  .sucesso{display:none}
+  .sucesso h2{font-family:var(--titulo);font-size:30px;line-height:1.1;letter-spacing:-.02em;margin-bottom:12px}
+  .sucesso p{margin-bottom:24px}
+  .nota{font-size:13px;color:var(--tinta70);line-height:1.5;margin-top:4px}
+  footer{background:var(--negro);color:#fff;padding:28px 24px;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+  footer img{height:26px;width:auto;display:block}
+  footer .wordmark{font-family:var(--titulo);font-weight:700;font-size:20px;letter-spacing:-.02em;color:#fff}
+  footer p{font-family:var(--titulo);font-weight:300;font-size:14px;color:rgba(255,255,255,.8)}
+  @media (min-width:960px){
+    .hero{grid-template-columns:1fr 1fr}
+    .figura{order:0;min-height:auto}
+    .texto{padding:72px 64px;align-self:center;justify-self:end;width:100%}
+  }
+</style>
+</head>
+<body>
+<main class="hero">
+  <section class="texto">
+    <p class="eyebrow">American Forum on Law &amp; Digital Governance · Nov 2026</p>
+    <h1>A máquina já chegou.<span>O resultado, não.</span></h1>
+    <p class="lead">Receba a palestra completa, com os dados e as referências de cada slide.</p>
+    <p class="autor">Gustavo de Paula · Country Manager Brasil · Xertica.ai</p>
+
+    <div id="bloco-form">
+      <form id="form" novalidate>
+        <label class="campo">Nome
+          <input type="text" name="nome" autocomplete="name" required>
+        </label>
+        <label class="campo">E-mail
+          <input type="email" name="email" autocomplete="email" inputmode="email" required>
+        </label>
+        <label class="campo">Instituição ou empresa
+          <input type="text" name="instituicao" autocomplete="organization" required>
+        </label>
+        <label class="campo">Cargo <small>(opcional)</small>
+          <input type="text" name="cargo" autocomplete="organization-title">
+        </label>
+        <label class="campo">Telefone <small>(opcional)</small>
+          <input type="tel" name="telefone" autocomplete="tel" inputmode="tel">
+        </label>
+        <label class="check"><input type="checkbox" name="lgpd" value="sim" required>
+          <span>Autorizo a Xertica a usar estes dados para enviar o material da palestra, conforme a LGPD.</span></label>
+        <label class="check"><input type="checkbox" name="contato" value="sim">
+          <span>Quero receber outros conteúdos da Xertica sobre IA no setor público.</span></label>
+        <p class="erro" id="erro">Preencha nome, e-mail e instituição, e marque a autorização.</p>
+        <div class="acoes">
+          <button class="btn btn-amarelo" type="submit" id="enviar">Baixar a palestra</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="sucesso" id="sucesso">
+      <h2>Pronto. A palestra é sua.</h2>
+      <p>Obrigado pelo interesse. Toque no botão abaixo para abrir o PDF.</p>
+      <div class="acoes">
+        <a class="btn btn-amarelo" id="baixar" href="https://docs.google.com/presentation/d/1Mwln9WtBz3rNp3e0VDP6jkyRNELB2EUQ32rFEbJ5HnI/export/pdf" target="_blank" rel="noopener">Baixar PDF</a>
+        <a class="btn btn-contorno" href="contato.html">Contato do Gustavo</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="figura" aria-hidden="true">
+    <svg viewBox="0 0 400 400" preserveAspectRatio="xMaxYMax slice">
+      <rect x="0" y="0" width="400" height="400" fill="#F2EDD8"/>
+      <rect x="200" y="200" width="200" height="200" fill="#1899AF"/>
+      <polygon points="200,200 400,200 400,0" fill="#DE5B48"/>
+      <rect x="100" y="300" width="100" height="100" fill="#DE5B48"/>
+      <polygon points="100,300 200,300 200,200" fill="#1899AF"/>
+      <rect x="300" y="100" width="100" height="100" fill="#1A1814" opacity=".9"/>
+    </svg>
+  </div>
+</main>
+
+<footer>
+  <span class="wordmark">Xertica.ai</span>
+  <p>Ativamos AI Superpowers para romper os limites do possível</p>
+</footer>
+
+<script>
+  const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyJzvq22P7i6aSFBmfHcoIbA2F_zC98q4D_WTieuz-CjezBqWuhE1CPX2qGhddgw1_K/exec";
+  const PDF_URL = "https://docs.google.com/presentation/d/1Mwln9WtBz3rNp3e0VDP6jkyRNELB2EUQ32rFEbJ5HnI/export/pdf";
+  const form = document.getElementById('form');
+  const erro = document.getElementById('erro');
+  const btn = document.getElementById('enviar');
+
+  function origem(){
+    const q = new URLSearchParams(location.search);
+    return ['utm_source','utm_medium','utm_campaign'].map(k=>q.get(k)).filter(Boolean).join(' / ') || 'direto';
+  }
+
+  form.addEventListener('submit', async (ev) => {
+    ev.preventDefault();
+    const d = new FormData(form);
+    const ok = d.get('nome')?.trim() && /\S+@\S+\.\S+/.test(d.get('email')||'') && d.get('instituicao')?.trim() && d.get('lgpd');
+    if(!ok){ erro.style.display='block'; return; }
+    erro.style.display='none';
+    btn.disabled = true; btn.textContent = 'Enviando…';
+    d.append('origem', origem());
+    if(!d.get('contato')) d.append('contato','nao');
+    try{
+      if(APPS_SCRIPT_URL && !APPS_SCRIPT_URL.startsWith('{{')){
+        await fetch(APPS_SCRIPT_URL, {method:'POST', mode:'no-cors', body:new URLSearchParams(d)});
+      }
+    }catch(e){ /* não bloqueia o download se a planilha falhar */ }
+    document.getElementById('bloco-form').style.display='none';
+    document.getElementById('sucesso').style.display='block';
+    document.getElementById('sucesso').scrollIntoView({behavior:'smooth', block:'start'});
+  });
+</script>
+</body>
+</html>
